@@ -1,0 +1,32 @@
+{
+  "features": [
+    "intent_what",
+    "intent_greet",
+    "intent_purpose",
+    "intent_thank",
+    "intent_fallback",
+    "intent_contact_hr",
+    "intent_minimum_lunch",
+    "intent_harassment_policy",
+    "intent_volunteer",
+    "intent_my_annual_leave",
+    "entity_topic",
+    "entity_context",
+    "slot_context_0",
+    "slot_topic_0",
+    "slot_topic_1",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_purpose",
+    "prev_utter_fallback",
+    "prev_utter_contact_hr",
+    "prev_utter_minimum_lunch_break",
+    "prev_utter_you_are_welcome",
+    "prev_utter_my_annual_leave",
+    "prev_action_give_maternity_leave_policy",
+    "prev_action_give_dental_policy",
+    "prev_action_volunteer",
+    "prev_action_harassment_policy"
+  ]
+}

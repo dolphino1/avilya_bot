@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  slack-service:
+    container_name: slack-service
+    build: ./slack_service
+    dockerfile: Dockerfile.test
+    volumes:
+      - './slack_service:/usr/src/app'
+    ports:
+      - 5002:5000
+    env_file:
+      - secrets_develop.env

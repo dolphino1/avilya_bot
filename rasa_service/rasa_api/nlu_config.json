@@ -1,0 +1,7 @@
+{
+  "pipeline": "spacy_sklearn",
+  "path" : "./rasa_api/models",
+  "project": "nlu",
+  "data" : "./rasa_api/data/training_data.json",
+  "language": "en_core_web_lg"
+}

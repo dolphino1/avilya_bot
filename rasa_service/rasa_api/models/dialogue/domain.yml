@@ -1,0 +1,70 @@
+action_factory: null
+actions:
+- utter_greet
+- utter_purpose
+- utter_fallback
+- utter_contact_hr
+- utter_minimum_lunch_break
+- utter_you_are_welcome
+- utter_my_annual_leave
+- actions.ActionGiveMaternityLeavePolicy
+- actions.ActionGiveDentalPolicy
+- actions.ActionVolunteer
+- actions.ActionHarassmentPolicy
+config:
+  store_entities_as_slots: true
+entities:
+- topic
+- context
+intents:
+- what
+- greet
+- purpose
+- thank
+- fallback
+- contact_hr
+- minimum_lunch
+- harassment_policy
+- volunteer
+- my_annual_leave
+slots:
+  context:
+    type: categorical
+    values:
+    - eligibility
+  topic:
+    type: categorical
+    values:
+    - maternity
+    - dental
+templates:
+  utter_contact_hr:
+  - text: The Company considers all Health, Welfare and Safety at Work issues very
+      seriously. You should discuss this directly with your HR Business Partner (Jo.Kaur@company.com).
+      Please email them directly or raise a HR service ticket.
+  utter_fallback:
+  - text: "I'm sorry. I don't understand. You should open a HR ticket here: \n <http://www.jira.com|Ticket\
+      \ Desk>"
+  - text: "I'm sorry I can't find relevant information. You should open a HR ticket\
+      \ here: \n <http://www.jira.com|Ticket Desk>"
+  utter_greet:
+  - text: Hey there!
+  - text: Hi!
+  - text: Hello
+  utter_minimum_lunch_break:
+  - text: The <http://www.irishstatutebook.ie/eli/1997/act/20/enacted/en/html|Organisation
+      of Working Time Act 1997> sets out the general rules on breaks. You are entitled
+      to a break of 15 minutes after a 4 ½ hour work period. If you work more than
+      6 hours you are entitled to a break of 30 minutes – and this can include the
+      first 15-minute break. More information is available at; citizensinformation/employment_rights/rest_periods_and_breaks
+  utter_my_annual_leave:
+  - text: You have 6 days annual leave not taken from your allocation for this year.
+  utter_purpose:
+  - text: I’m your friendly personal HR assistant powered by A.I. Ask me any HR questions
+      and I’ll try to help you out!
+  utter_you_are_welcome:
+  - text: You're welcome
+  - text: Happy to help!
+  - text: You are very welcome
+  - text: Glad to be of service
+topics: []

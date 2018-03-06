@@ -1,0 +1,456 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "what",
+        "entities": [
+          {
+            "start": 5,
+            "end": 20,
+            "value": "maternity",
+            "entity": "topic"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "eligibility",
+            "entity": "context"
+          }
+        ],
+        "text": "What maternity leave am I eligible for?"
+      },
+      {
+        "intent": "what",
+        "entities": [
+          {
+            "start": 5,
+            "end": 20,
+            "value": "maternity",
+            "entity": "topic"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "eligibility",
+            "entity": "context"
+          }
+        ],
+        "text": "What maternity leave am I allowed?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hey there chatbot"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Yo"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Whats up?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi dude"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Heyy x"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Well hello there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hiiii"
+      },
+      {
+        "intent": "purpose",
+        "entities": [],
+        "text": "Who are you?"
+      },
+      {
+        "intent": "purpose",
+        "entities": [],
+        "text": "How can you help me?"
+      },
+      {
+        "intent": "purpose",
+        "entities": [],
+        "text": "How do I use you?"
+      },
+      {
+        "intent": "what",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "maternity",
+            "entity": "topic"
+          },
+          {
+            "start": 66,
+            "end": 73,
+            "value": "eligibility",
+            "entity": "context"
+          }
+        ],
+        "text": "I'm currently pregnant and a fixed term employee, what leave am I allowed?"
+      },
+      {
+        "intent": "my_annual_leave",
+        "entities": [],
+        "text": "What is my annual leave?"
+      },
+      {
+        "intent": "my_annual_leave",
+        "entities": [],
+        "text": "How much annual leave do I have left?"
+      },
+      {
+        "intent": "my_annual_leave",
+        "entities": [],
+        "text": "I'm wondering how much annual leave I have left?"
+      },
+      {
+        "intent": "my_annual_leave",
+        "entities": [],
+        "text": "Can you tell me how much annual leave I have left? That would be cool"
+      },
+      {
+        "intent": "my_annual_leave",
+        "entities": [],
+        "text": "I want you to tell me how much annual leave I have left."
+      },
+      {
+        "intent": "my_annual_leave",
+        "entities": [],
+        "text": "tell me my annual leave allowance"
+      },
+      {
+        "intent": "volunteer",
+        "entities": [],
+        "text": "I'm looking to volunteer in some good causes. Anything you know?"
+      },
+      {
+        "intent": "volunteer",
+        "entities": [],
+        "text": "I\u2019m interested in doing some volunteering work. Can you tell me anything?"
+      },
+      {
+        "intent": "volunteer",
+        "entities": [],
+        "text": "I want to volunteer. Help me?"
+      },
+      {
+        "intent": "volunteer",
+        "entities": [],
+        "text": "volunteer"
+      },
+      {
+        "intent": "volunteer",
+        "entities": [],
+        "text": "tell me about volunteering"
+      },
+      {
+        "intent": "volunteer",
+        "entities": [],
+        "text": "does the company have any volunteering opportunities?"
+      },
+      {
+        "intent": "volunteer",
+        "entities": [],
+        "text": "What volunteering opportunities are there?"
+      },
+      {
+        "intent": "harassment_policy",
+        "entities": [],
+        "text": "Does this company have a bullying and harassment policy?"
+      },
+      {
+        "intent": "harassment_policy",
+        "entities": [],
+        "text": "What is the company's bullying and harassment policy?"
+      },
+      {
+        "intent": "harassment_policy",
+        "entities": [],
+        "text": "I need you to tell me about the companies harassment policy?"
+      },
+      {
+        "intent": "harassment_policy",
+        "entities": [],
+        "text": "I would really like to see the bullying and harassment policy please. Thank you"
+      },
+      {
+        "intent": "harassment_policy",
+        "entities": [],
+        "text": "Tell me about the companies bullying and harassment policy "
+      },
+      {
+        "intent": "harassment_policy",
+        "entities": [],
+        "text": "Show me this companies policies on bullying"
+      },
+      {
+        "intent": "harassment_policy",
+        "entities": [],
+        "text": "Bring up the company's harassment policy"
+      },
+      {
+        "intent": "purpose",
+        "entities": [],
+        "text": "how do I use you?"
+      },
+      {
+        "intent": "minimum_lunch",
+        "entities": [],
+        "text": "What is the minimum lunch break I can take?"
+      },
+      {
+        "intent": "minimum_lunch",
+        "entities": [],
+        "text": "Do I have to take lunch? Is there some kind of minimum?"
+      },
+      {
+        "intent": "minimum_lunch",
+        "entities": [],
+        "text": "Do I need to take lunch?"
+      },
+      {
+        "intent": "minimum_lunch",
+        "entities": [],
+        "text": "I'm curious, do I need to take lunch every day?"
+      },
+      {
+        "intent": "minimum_lunch",
+        "entities": [],
+        "text": "I have a question for you. Is there a minimum lunch break that I must take?"
+      },
+      {
+        "intent": "minimum_lunch",
+        "entities": [],
+        "text": "is there some legal requirement on the amount of lunch I have to take at this company?"
+      },
+      {
+        "intent": "minimum_lunch",
+        "entities": [],
+        "text": "What is the legal stuff around my lunch hour?"
+      },
+      {
+        "intent": "minimum_lunch",
+        "entities": [],
+        "text": "What is the policy around lunch breaks?"
+      },
+      {
+        "intent": "purpose",
+        "entities": [],
+        "text": "What do I do with you then?"
+      },
+      {
+        "intent": "contact_hr",
+        "entities": [],
+        "text": "I have a back ache. Is there something you could help me with?"
+      },
+      {
+        "intent": "contact_hr",
+        "entities": [],
+        "text": "I think I\u2019ve developed a back problem and I find my office seat a bit uncomfortable. What should I do?"
+      },
+      {
+        "intent": "contact_hr",
+        "entities": [],
+        "text": "I have been having bad back pain recently, can you help me?"
+      },
+      {
+        "intent": "contact_hr",
+        "entities": [],
+        "text": "Is there any health and safety policies I should be aware of?"
+      },
+      {
+        "intent": "contact_hr",
+        "entities": [],
+        "text": "I have a safety concern, who should I raise this with?"
+      },
+      {
+        "intent": "contact_hr",
+        "entities": [],
+        "text": "There are some unsafe practices in the office that make me concerned. Who should I speak to?"
+      },
+      {
+        "intent": "contact_hr",
+        "entities": [],
+        "text": "Workplace safety seems really bad around here I want to talk to someone."
+      },
+      {
+        "intent": "contact_hr",
+        "entities": [],
+        "text": "I'm worried that there could be an injury in the workplace. Who should I talk to?"
+      },
+      {
+        "intent": "contact_hr",
+        "entities": [],
+        "text": "I'm worried that someone could be hurt due to a unsafe practices. Can you help me?"
+      },
+      {
+        "intent": "contact_hr",
+        "entities": [],
+        "text": "My office seat needs adjusting. Who should I speak to?"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "jaldsl lalala "
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "crabs are inside whales"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "I don't know if I should stay with my partner. WHat do you think?"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "Are you racist?"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "random text random text"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "Do you like Donald Trump?"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "So anyway this one time at band camp me and my friends we went swimming. It was fun. Do you have any cool stories?"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "rusty spoons"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "I hate you"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "I want to change jobs."
+      },
+      {
+        "intent": "thank",
+        "entities": [],
+        "text": "Thanks you've been very helpful!"
+      },
+      {
+        "intent": "thank",
+        "entities": [],
+        "text": "Thanks"
+      },
+      {
+        "intent": "thank",
+        "entities": [],
+        "text": "thanks"
+      },
+      {
+        "intent": "thank",
+        "entities": [],
+        "text": "cheers"
+      },
+      {
+        "intent": "thank",
+        "entities": [],
+        "text": "that was helpful"
+      },
+      {
+        "intent": "thank",
+        "entities": [],
+        "text": "You've really helped me out. Thanks"
+      },
+      {
+        "intent": "thank",
+        "entities": [],
+        "text": "Wow I'm impressed"
+      },
+      {
+        "intent": "thank",
+        "entities": [],
+        "text": "good job"
+      },
+      {
+        "intent": "thank",
+        "entities": [],
+        "text": "you're the best"
+      },
+      {
+        "intent": "thank",
+        "entities": [],
+        "text": "that was cool. Cheers"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "jarjar binks"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "Can I would I won't I?"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "How much wood chuck could a wood chuck chuck if a wood chuck could chuck wood?"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "i hv reli bd spellings u no?"
+      },
+      {
+        "intent": "fallback",
+        "entities": [],
+        "text": "u mad bro?"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [
+      {
+        "value": "maternity",
+        "synonyms": [
+          "maternity leave",
+          "pregnant",
+          "pregnancy"
+        ]
+      }
+    ]
+  }
+}

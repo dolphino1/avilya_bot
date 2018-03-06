@@ -1,0 +1,35 @@
+version: '3.1'
+
+services:
+
+  rasa-service:
+    container_name: rasa-service
+    build: ./rasa_service
+    volumes:
+      - './rasa_service:/usr/src/app'
+    ports:
+      - 5001:5000 # expose ports - HOST:CONTAINER
+
+  slack-service:
+    container_name: slack-service
+    build: ./slack_service
+    volumes:
+      - './slack_service:/usr/src/app'
+    ports:
+      - 5002:5000
+    depends_on:
+      - rasa-service
+      - users-db
+    env_file:
+      - secrets_develop.env
+
+  users-db:
+    container_name: conversation_db
+    build: ./conversation_db
+    ports:
+        - 5435:5432  # expose ports - HOST:CONTAINER
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    healthcheck:
+      test: exit 0
