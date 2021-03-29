@@ -63,7 +63,7 @@ plac==0.9.6
 ply==3.10
 preshed==1.0.0
 protobuf==3.5.0.post1
-Pygments==2.2.0
+Pygments==2.7.4
 pykwalify==1.6.0
 pymessenger==0.0.7.0
 pyparsing==2.2.0
