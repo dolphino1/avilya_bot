@@ -55,7 +55,7 @@ nbconvert==5.3.1
 nbformat==4.4.0
 nbsphinx==0.2.18
 networkx==1.11
-numpy==1.13.1
+numpy==1.21.0
 pandoc==1.0.0b2
 pandocfilters==1.4.2
 pathlib==1.0.1
